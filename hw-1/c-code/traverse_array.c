@@ -13,8 +13,8 @@ int main () {
   int l, r;
   scanf("%d %d", &l, &r);
 
-  printf("%u %d", i, l);
-  for (size_t i = r; i >= l; --i) {
+  //printf("%u %d", i, l);
+  for (int i = r; i >= l; --i) {
     printf("%d ", arr[i]);
   }
 
